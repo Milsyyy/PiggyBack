@@ -1,5 +1,30 @@
 # Routine: The Ordinary-based
 
+## Current routine (products owned: Niacinamide 10% + Zinc 1%, Salicylic Acid 2% Solution, NMF moisturiser)
+
+Still needed: a **gentle cleanser** (CeraVe Hydrating/Foaming, Cetaphil, or TO
+Squalane), a **daily SPF 30–50**, **ketoconazole 2% shampoo**, and **Vaseline**
+for the lips.
+
+**AM:** cleanse or water → Niacinamide (2–3 drops) → moisturiser → SPF
+**PM:** cleanse → Salicylic (on scheduled nights) → moisturiser → Vaseline on lips
+
+| Weeks | Salicylic nights |
+|---|---|
+| 1–2 | none; let the squeeze marks settle |
+| 3–4 | Mon, Thu |
+| 5+ | Mon, Wed, Fri |
+
+Ketoconazole shampoo 2–3×/week in the shower on the brows, the sides of the nose,
+the beard and the chest (leave 3–5 minutes).
+
+Next additions, one at a time after about 6 weeks: Azelaic Acid 10% (red marks)
+on the non-salicylic nights, then a retinoid later. The full long-term plan is
+below.
+
+---
+
+
 Update: the nose redness and chest marks come from **squeezing pores**, so rosacea
 is less likely. The remaining goals are healing the marks, reducing visible pores
 and blackheads, the brow redness, and the dry lips.
