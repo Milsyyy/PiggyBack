@@ -2,13 +2,25 @@
 
 ## Current routine (products owned: Niacinamide 10% + Zinc 1%, Salicylic Acid 2% Solution, NMF moisturiser)
 
-Still needed: a **gentle cleanser** (CeraVe Hydrating/Foaming, Cetaphil, or TO
-Squalane), a **daily SPF 30–50**, **ketoconazole 2% shampoo**, and **Vaseline**
-for the lips.
+**AM:** cleanse or water → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
 
-**AM:** cleanse or water → Niacinamide (2–3 drops) → moisturiser → SPF
-**PM:** cleanse → Salicylic (on scheduled nights) → moisturiser → Vaseline on lips
+*No AM moisturiser needed: oily skin plus a lotion or fluid sunscreen is enough.
+Add the moisturiser back before SPF only if the skin feels tight or flaky.*
 
+**PM:** cleanse → Salicylic (on scheduled nights) → moisturiser (keep this; it
+buffers the salicylic) → Vaseline on lips
+
+### Shopping list (Australia)
+| Item | Product | Approx. AUD | Buy |
+|---|---|---|---|
+| Cleanser | CeraVe Foaming Cleanser (normal–oily) | ~$12–18 / 236 mL | [Chemist Warehouse](https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml) · [Priceline](https://www.priceline.com.au/product/188700/cerave-foaming-cleanser-236-ml) |
+| Sunscreen | Cancer Council Day Wear Face Matte Invisible SPF50+ | ~$9–18 / 75 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/89014/cancer-council-spf-50-day-wear-face-matte-invisible-75ml-tube) |
+| ↳ upgrade | La Roche-Posay Anthelios UVMune 400 Oil Control Fluid SPF50+ | ~$29–48 / 50 mL | [Skinlovers AU](https://www.skinlovers.com/en-au/products/la-roche-posay-anthelos-uvmune-400-oil-control-fluid-spf50-50ml), Priceline, Chemist Warehouse |
+| Ketoconazole | Nizoral 2% Shampoo (Pharmacist Only, ask at the counter) | ~$26 / 100 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
+| ↳ cheaper | Sebizole 2% Shampoo | ~$20 / 200 mL | [Blooms](https://www.bloomsthechemist.com.au/sebizole-2-spoo-200ml) |
+| Lips | Vaseline or Aquaphor (or Lucas' Papaw) | ~$3–8 | Any chemist or supermarket |
+
+### Salicylic schedule
 | Weeks | Salicylic nights |
 |---|---|
 | 1–2 | none; let the squeeze marks settle |
@@ -48,7 +60,7 @@ deeper. Salicylic acid does the job chemically instead.
 | *Outside TO* | Ketoconazole 2% shampoo (brows, beard, chest) · plain petrolatum for lips |
 
 ## Daily
-**AM:** cleanse (or water) → Niacinamide (optional) → moisturiser → **SPF, ½ tsp face + neck**
+**AM:** cleanse (or water) → Niacinamide (optional) → **SPF, ½ tsp face + neck** (moisturiser only if tight/dry)
 
 **PM:** cleanse → *tonight's active* (see the schedule) → moisturiser → petrolatum on lips
 
