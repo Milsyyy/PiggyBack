@@ -5,8 +5,8 @@
 ### What you own and where it goes
 | Product | Use it on | How often |
 |---|---|---|
-| TO **Glucoside Foaming Cleanser** | Face | AM + PM (main cleanser) |
-| Neutrogena Deep Clean Hydrating Foaming Cleanser | Face | Backup only; it contains acids, so avoid it on salicylic nights |
+| Neutrogena Deep Clean Hydrating Foaming Cleanser | Face | AM + PM until the replacement arrives. On salicylic nights, rinse with water instead |
+| **OC Naturals Anti-Dandruff 2-in-1** (zinc pyrithione) | Scalp, **brows, sides of nose, beard, chest** | In the shower on Tue/Thu/Sat. This is your anti-yeast wash |
 | TO Niacinamide 10% + Zinc 1% | Face | Every AM |
 | TO Natural Moisturizing Factors + Beta Glucan | Face | Every PM (AM only if tight) |
 | TO **Salicylic Acid 2% Anhydrous Solution** (leave-on) | Nose, chin, forehead | Main pore treatment from week 3 (schedule below) |
@@ -21,15 +21,15 @@ The orders are about a year old. Most The Ordinary products last about 12 months
 once opened. Bin anything that smells off, has changed colour, or has separated.
 
 ### Face
-**AM:** Glucoside cleanser (or water) → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
+**AM:** Neutrogena cleanser (or water) → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
 
 *No AM moisturiser needed for oily skin. Add NMF before SPF only if your skin feels tight.*
 
-**PM:** Glucoside cleanser → *(salicylic nights: a few drops of Salicylic 2% Solution on
+**PM:** Neutrogena cleanser (water only on salicylic nights) → *(salicylic nights: a few drops of Salicylic 2% Solution on
 nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Vaseline **jelly** on lips
 
 ### Chest
-- **Shower:** keto wash on Tue/Thu/Sat. frank Triple Acid Body Wash on the other days.
+- **Shower:** OC Naturals wash on Tue/Thu/Sat (lather on face areas and chest, leave 3–5 min). frank Triple Acid Body Wash on the other days.
 - **Night:** Salicylic 0.5% Body Serum (schedule below). DermaVeen on top if dry.
 
 ### Schedule
@@ -44,8 +44,9 @@ nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Vaseline *
 |---|---|---|---|
 | Sunscreen | Cancer Council Day Wear Face Matte Invisible SPF50+ | ~$9–18 / 75 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/89014/cancer-council-spf-50-day-wear-face-matte-invisible-75ml-tube) |
 | ↳ upgrade | La Roche-Posay Anthelios UVMune 400 Oil Control Fluid SPF50+ | ~$29–48 / 50 mL | [Skinlovers AU](https://www.skinlovers.com/en-au/products/la-roche-posay-anthelos-uvmune-400-oil-control-fluid-spf50-50ml) |
-| Ketoconazole | Nizoral 2% Shampoo (Pharmacist Only) | ~$26 / 100 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
-| ↳ cheaper | Sebizole 2% Shampoo | ~$20 / 200 mL | [Blooms](https://www.bloomsthechemist.com.au/sebizole-2-spoo-200ml) |
+| Cleanser | CeraVe Foaming Cleanser (normal–oily) | ~$12–18 / 236 mL | [Chemist Warehouse](https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml) · [Priceline](https://www.priceline.com.au/product/188700/cerave-foaming-cleanser-236-ml) |
+| ↳ or re-buy | The Ordinary Glucoside Foaming Cleanser 150 mL | ~$20 | theordinary.com (AU) |
+| *Only if needed* | Nizoral 2% / Sebizole 2% (ketoconazole) | ~$20–26 | Step up to this if brow, nose or beard flaking persists after 4 weeks on the OC Naturals wash. [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
 | Lips | Vaseline Petroleum **Jelly** (the tub, not the body lotion) | ~$3–6 | Any chemist or supermarket |
 
 Next additions, one at a time after about 6 weeks: Azelaic Acid 10% (red marks)
