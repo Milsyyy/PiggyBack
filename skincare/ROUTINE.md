@@ -1,39 +1,43 @@
 # Routine
 
-## Current routine (updated with the products you own)
+## Current routine (based on your photos and The Ordinary orders from Jun and Oct 2025)
 
 ### What you own and where it goes
 | Product | Use it on | How often |
 |---|---|---|
-| Neutrogena Deep Clean Hydrating Foaming Cleanser | Face | AM + PM |
-| The Ordinary Niacinamide 10% + Zinc 1% | Face | Every AM |
-| The Ordinary Natural Moisturizing Factors + Beta Glucan | Face | Every PM (AM only if tight) |
-| The Ordinary **Salicylic Acid 2% Masque** (wash-off) | Nose, chin, forehead | 1–2×/week, 10 min max, from week 3 |
-| The Ordinary **Salicylic Acid 0.5% Body Serum** (leave-on) | Chest (+ back) | Every other night → nightly, from week 3 |
+| TO **Glucoside Foaming Cleanser** | Face | AM + PM (main cleanser) |
+| Neutrogena Deep Clean Hydrating Foaming Cleanser | Face | Backup only; it contains acids, so avoid it on salicylic nights |
+| TO Niacinamide 10% + Zinc 1% | Face | Every AM |
+| TO Natural Moisturizing Factors + Beta Glucan | Face | Every PM (AM only if tight) |
+| TO **Salicylic Acid 2% Anhydrous Solution** (leave-on) | Nose, chin, forehead | Main pore treatment from week 3 (schedule below) |
+| TO Salicylic Acid 2% Masque (wash-off) | Nose, chin, forehead | Optional, Sun from week 5, 10 min max |
+| TO Salicylic Acid 0.5% Body Serum (leave-on) | Chest (+ back) | From week 3 (schedule below) |
 | frank body Triple Acid Body Wash | Chest, back, body | Shower days *without* the keto wash |
-| DermaVeen Extra Hydration Lotion | Chest and body if dry after the body serum | As needed |
+| DermaVeen Extra Hydration Lotion | Chest and body if dry | As needed |
 | frank body Glycolic Body Scrub | Arms/legs only | ≤1×/week. **Not the face, not the chest for now** |
 | Palmer's Cocoa Butter / Vaseline Intensive Care lotion | Body only (fragranced) | Keep off the face and chest spots |
 
+The orders are about a year old. Most The Ordinary products last about 12 months
+once opened. Bin anything that smells off, has changed colour, or has separated.
+
 ### Face
-**AM:** Neutrogena cleanser (or water) → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
+**AM:** Glucoside cleanser (or water) → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
 
 *No AM moisturiser needed for oily skin. Add NMF before SPF only if your skin feels tight.*
 
-**PM:** Neutrogena cleanser → *(masque nights: Salicylic 2% Masque on nose/chin/forehead,
-10 min, rinse)* → NMF moisturiser → Vaseline **jelly** on lips
+**PM:** Glucoside cleanser → *(salicylic nights: a few drops of Salicylic 2% Solution on
+nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Vaseline **jelly** on lips
 
 ### Chest
 - **Shower:** keto wash on Tue/Thu/Sat. frank Triple Acid Body Wash on the other days.
-- **Night (from week 3):** Salicylic 0.5% Body Serum every other night. Go nightly
-  if no irritation. DermaVeen on top if dry.
+- **Night:** Salicylic 0.5% Body Serum (schedule below). DermaVeen on top if dry.
 
 ### Schedule
-| Weeks | Face masque | Chest body serum |
-|---|---|---|
-| 1–2 | none; let the squeeze marks heal | none |
-| 3–4 | Sun | Mon, Wed, Fri |
-| 5+ | Wed, Sun | nightly |
+| Weeks | Face: Salicylic 2% Solution | Face: Masque (optional) | Chest: Body Serum |
+|---|---|---|---|
+| 1–2 | none; let the squeeze marks heal | none | none |
+| 3–4 | Mon, Thu | none | Mon, Wed, Fri |
+| 5+ | Mon, Wed, Fri | Sun | nightly |
 
 ### Shopping list (Australia): still needed
 | Item | Product | Approx. AUD | Buy |
@@ -43,12 +47,9 @@
 | Ketoconazole | Nizoral 2% Shampoo (Pharmacist Only) | ~$26 / 100 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
 | ↳ cheaper | Sebizole 2% Shampoo | ~$20 / 200 mL | [Blooms](https://www.bloomsthechemist.com.au/sebizole-2-spoo-200ml) |
 | Lips | Vaseline Petroleum **Jelly** (the tub, not the body lotion) | ~$3–6 | Any chemist or supermarket |
-| *Optional* | The Ordinary Salicylic Acid 2% **Solution** (leave-on), if the masque isn't clearing your nose after about 8 weeks | ~$12–15 | Priceline, Sephora, Adore Beauty |
-
-You don't need a new cleanser. The Neutrogena one is fine.
 
 Next additions, one at a time after about 6 weeks: Azelaic Acid 10% (red marks)
-on nights without the masque, then a retinoid later. The full long-term plan is below.
+on nights without salicylic, then a retinoid later. The full long-term plan is below.
 
 ---
 
