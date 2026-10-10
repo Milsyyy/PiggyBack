@@ -26,7 +26,7 @@ once opened. Bin anything that smells off, has changed colour, or has separated.
 *No AM moisturiser needed for oily skin. Add NMF before SPF only if your skin feels tight.*
 
 **PM:** Neutrogena cleanser (water only on salicylic nights) → *(salicylic nights: a few drops of Salicylic 2% Solution on
-nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Vaseline **jelly** on lips
+nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Lucas' Papaw or Vaseline on lips (already owned)
 
 ### Chest
 - **Shower:** OC Naturals wash on Tue/Thu/Sat (lather on face areas and chest, leave 3–5 min). frank Triple Acid Body Wash on the other days.
@@ -47,7 +47,6 @@ nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Vaseline *
 | Cleanser | CeraVe Foaming Cleanser (normal–oily) | ~$12–18 / 236 mL | [Chemist Warehouse](https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml) · [Priceline](https://www.priceline.com.au/product/188700/cerave-foaming-cleanser-236-ml) |
 | ↳ or re-buy | The Ordinary Glucoside Foaming Cleanser 150 mL | ~$20 | theordinary.com (AU) |
 | *Only if needed* | Nizoral 2% / Sebizole 2% (ketoconazole) | ~$20–26 | Step up to this if brow, nose or beard flaking persists after 4 weeks on the OC Naturals wash. [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
-| Lips | Vaseline Petroleum **Jelly** (the tub, not the body lotion) | ~$3–6 | Any chemist or supermarket |
 
 Next additions, one at a time after about 6 weeks: Azelaic Acid 10% (red marks)
 on nights without salicylic, then a retinoid later. The full long-term plan is below.
