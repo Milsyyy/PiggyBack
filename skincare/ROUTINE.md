@@ -1,38 +1,54 @@
-# Routine: The Ordinary-based
+# Routine
 
-## Current routine (products owned: Niacinamide 10% + Zinc 1%, Salicylic Acid 2% Solution, NMF moisturiser)
+## Current routine (updated with the products you own)
 
-**AM:** cleanse or water → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
+### What you own and where it goes
+| Product | Use it on | How often |
+|---|---|---|
+| Neutrogena Deep Clean Hydrating Foaming Cleanser | Face | AM + PM |
+| The Ordinary Niacinamide 10% + Zinc 1% | Face | Every AM |
+| The Ordinary Natural Moisturizing Factors + Beta Glucan | Face | Every PM (AM only if tight) |
+| The Ordinary **Salicylic Acid 2% Masque** (wash-off) | Nose, chin, forehead | 1–2×/week, 10 min max, from week 3 |
+| The Ordinary **Salicylic Acid 0.5% Body Serum** (leave-on) | Chest (+ back) | Every other night → nightly, from week 3 |
+| frank body Triple Acid Body Wash | Chest, back, body | Shower days *without* the keto wash |
+| DermaVeen Extra Hydration Lotion | Chest and body if dry after the body serum | As needed |
+| frank body Glycolic Body Scrub | Arms/legs only | ≤1×/week. **Not the face, not the chest for now** |
+| Palmer's Cocoa Butter / Vaseline Intensive Care lotion | Body only (fragranced) | Keep off the face and chest spots |
 
-*No AM moisturiser needed: oily skin plus a lotion or fluid sunscreen is enough.
-Add the moisturiser back before SPF only if the skin feels tight or flaky.*
+### Face
+**AM:** Neutrogena cleanser (or water) → Niacinamide (2–3 drops) → **SPF** (½ tsp face + neck)
 
-**PM:** cleanse → Salicylic (on scheduled nights) → moisturiser (keep this; it
-buffers the salicylic) → Vaseline on lips
+*No AM moisturiser needed for oily skin. Add NMF before SPF only if your skin feels tight.*
 
-### Shopping list (Australia)
+**PM:** Neutrogena cleanser → *(masque nights: Salicylic 2% Masque on nose/chin/forehead,
+10 min, rinse)* → NMF moisturiser → Vaseline **jelly** on lips
+
+### Chest
+- **Shower:** keto wash on Tue/Thu/Sat. frank Triple Acid Body Wash on the other days.
+- **Night (from week 3):** Salicylic 0.5% Body Serum every other night. Go nightly
+  if no irritation. DermaVeen on top if dry.
+
+### Schedule
+| Weeks | Face masque | Chest body serum |
+|---|---|---|
+| 1–2 | none; let the squeeze marks heal | none |
+| 3–4 | Sun | Mon, Wed, Fri |
+| 5+ | Wed, Sun | nightly |
+
+### Shopping list (Australia): still needed
 | Item | Product | Approx. AUD | Buy |
 |---|---|---|---|
-| Cleanser | CeraVe Foaming Cleanser (normal–oily) | ~$12–18 / 236 mL | [Chemist Warehouse](https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml) · [Priceline](https://www.priceline.com.au/product/188700/cerave-foaming-cleanser-236-ml) |
 | Sunscreen | Cancer Council Day Wear Face Matte Invisible SPF50+ | ~$9–18 / 75 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/89014/cancer-council-spf-50-day-wear-face-matte-invisible-75ml-tube) |
-| ↳ upgrade | La Roche-Posay Anthelios UVMune 400 Oil Control Fluid SPF50+ | ~$29–48 / 50 mL | [Skinlovers AU](https://www.skinlovers.com/en-au/products/la-roche-posay-anthelos-uvmune-400-oil-control-fluid-spf50-50ml), Priceline, Chemist Warehouse |
-| Ketoconazole | Nizoral 2% Shampoo (Pharmacist Only, ask at the counter) | ~$26 / 100 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
+| ↳ upgrade | La Roche-Posay Anthelios UVMune 400 Oil Control Fluid SPF50+ | ~$29–48 / 50 mL | [Skinlovers AU](https://www.skinlovers.com/en-au/products/la-roche-posay-anthelos-uvmune-400-oil-control-fluid-spf50-50ml) |
+| Ketoconazole | Nizoral 2% Shampoo (Pharmacist Only) | ~$26 / 100 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
 | ↳ cheaper | Sebizole 2% Shampoo | ~$20 / 200 mL | [Blooms](https://www.bloomsthechemist.com.au/sebizole-2-spoo-200ml) |
-| Lips | Vaseline or Aquaphor (or Lucas' Papaw) | ~$3–8 | Any chemist or supermarket |
+| Lips | Vaseline Petroleum **Jelly** (the tub, not the body lotion) | ~$3–6 | Any chemist or supermarket |
+| *Optional* | The Ordinary Salicylic Acid 2% **Solution** (leave-on), if the masque isn't clearing your nose after about 8 weeks | ~$12–15 | Priceline, Sephora, Adore Beauty |
 
-### Salicylic schedule
-| Weeks | Salicylic nights |
-|---|---|
-| 1–2 | none; let the squeeze marks settle |
-| 3–4 | Mon, Thu |
-| 5+ | Mon, Wed, Fri |
-
-Ketoconazole shampoo 2–3×/week in the shower on the brows, the sides of the nose,
-the beard and the chest (leave 3–5 minutes).
+You don't need a new cleanser. The Neutrogena one is fine.
 
 Next additions, one at a time after about 6 weeks: Azelaic Acid 10% (red marks)
-on the non-salicylic nights, then a retinoid later. The full long-term plan is
-below.
+on nights without the masque, then a retinoid later. The full long-term plan is below.
 
 ---
 
