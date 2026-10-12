@@ -28,6 +28,23 @@ once opened. Bin anything that smells off, has changed colour, or has separated.
 **PM:** Neutrogena cleanser (water only on salicylic nights) → *(salicylic nights: a few drops of Salicylic 2% Solution on
 nose/chin/forehead, let it dry for 1 minute)* → NMF moisturiser → Lucas' Papaw or Vaseline on lips (already owned)
 
+### Night-only version (for skipped mornings)
+Do everything in the evening; mornings need nothing.
+
+1. **Evening shower:** OC Naturals wash (Tue/Thu/Sat: scalp, brows, sides of nose, beard,
+   chest, 3–5 min) or frank Triple Acid Body Wash on the chest/back (other days)
+2. **Cleanse face:** Neutrogena (water only on salicylic nights)
+3. **Salicylic 2% Solution** on scheduled nights (nose/chin/forehead, let dry 1 min)
+4. **Niacinamide:** 2–3 drops, whole face (moved from AM)
+5. **NMF moisturiser**
+6. **Salicylic 0.5% Body Serum** on the chest on scheduled nights
+7. **Paw paw / Vaseline** on lips
+
+**Sunscreen:** only before you head outside for more than a few minutes. Keep the tube
+in your bag or car.
+
+The page has a "Night-only mode" toggle that switches the checklist to this.
+
 ### Chest
 - **Shower:** OC Naturals wash on Tue/Thu/Sat (lather on face areas and chest, leave 3–5 min). frank Triple Acid Body Wash on the other days.
 - **Night:** Salicylic 0.5% Body Serum (schedule below). DermaVeen on top if dry.

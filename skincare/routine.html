@@ -84,11 +84,13 @@ td.on{color:var(--accent);font-weight:600}
       <span class="chip" id="weekchip">Week 1</span>
     </div>
     <div class="start"><label for="startdate">Started on</label><input type="date" id="startdate"></div>
+    <div class="start"><input type="checkbox" id="nightonly" style="width:18px;height:18px;accent-color:var(--accent)"><label for="nightonly">Night-only mode: everything happens at night, sunscreen only when you head outside</label></div>
 
-    <div class="label">
+    <div class="label" id="amcard">
       <div class="label-head"><h2>Morning</h2><span>AM</span></div>
       <ol class="steps" id="am"></ol>
     </div>
+    <div class="rule" id="amnote" hidden><b>Mornings:</b> nothing required. If you're heading outside for more than a few minutes, put on sunscreen first: ½ tsp for face and neck. Keep a tube in your bag or car.</div>
     <div class="label">
       <div class="label-head"><h2>Night</h2><span>PM</span></div>
       <ol class="steps" id="pm"></ol>
@@ -199,7 +201,27 @@ td.on{color:var(--accent);font-weight:600}
   }
   const ketoToday=[2,4,6].includes(dow);
 
+  const nightBox=document.getElementById("nightonly");
+  nightBox.checked=store.get("nightOnly")==="1";
+  nightBox.addEventListener("change",()=>{store.set("nightOnly",nightBox.checked?"1":"0");render()});
+
+  function nightOnlySteps(w){
+    const sal=salicylicTonight(w);
+    const pm=[];
+    if(ketoToday) pm.push(["OC Naturals anti-dandruff wash","Evening shower: scalp, brows, sides of nose, beard, chest. Leave 3–5 minutes"]);
+    else pm.push(["frank Triple Acid Body Wash","Chest and back in the shower. Not the face"]);
+    pm.push(["Cleanse face",sal?"Lukewarm water only tonight, because the salicylic follows":"Neutrogena cleanser, lukewarm water, no scrubbing"]);
+    if(sal) pm.push(["Salicylic 2% Solution","A few drops on nose, chin, forehead. Let it dry for 1 minute"]);
+    if(masqueTonight(w)) pm.push(["Salicylic 2% Masque (optional)","Thin layer on nose, chin, forehead. 10 minutes max, then rinse"]);
+    pm.push(["Niacinamide","2–3 drops, whole face"]);
+    pm.push(["NMF + Beta Glucan","Whole face"]);
+    if(bodySerumTonight(w)) pm.push(["Salicylic 0.5% Body Serum","Chest and back. DermaVeen on top if dry"]);
+    pm.push(["Paw paw or Vaseline on lips","Thin layer before bed"]);
+    return {am:[],pm};
+  }
+
   function stepsFor(w){
+    if(nightBox.checked) return nightOnlySteps(w);
     const am=[];
     if(ketoToday) am.push(["OC Naturals anti-dandruff wash","Shower: scalp, brows, sides of nose, beard, chest. Leave 3–5 minutes"]);
     else am.push(["frank Triple Acid Body Wash","Chest and back in the shower. Not the face"]);
@@ -237,6 +259,8 @@ td.on{color:var(--accent);font-weight:600}
     const sal=salicylicTonight(w);
     chip.textContent="Week "+w+(sal?" · salicylic night":masqueTonight(w)?" · masque night":w<=2?" · healing weeks":" · rest night");
     chip.classList.toggle("warn",w<=2);
+    document.getElementById("amcard").hidden=nightBox.checked;
+    document.getElementById("amnote").hidden=!nightBox.checked;
     list(document.getElementById("am"),am,"am");
     list(document.getElementById("pm"),pm,"pm");
   }
