@@ -61,8 +61,8 @@ The page has a "Night-only mode" toggle that switches the checklist to this.
 |---|---|---|---|
 | Sunscreen | Cancer Council Day Wear Face Matte Invisible SPF50+ | ~$9–18 / 75 mL | [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/89014/cancer-council-spf-50-day-wear-face-matte-invisible-75ml-tube) |
 | ↳ upgrade | La Roche-Posay Anthelios UVMune 400 Oil Control Fluid SPF50+ | ~$29–48 / 50 mL | [Skinlovers AU](https://www.skinlovers.com/en-au/products/la-roche-posay-anthelos-uvmune-400-oil-control-fluid-spf50-50ml) |
-| **The Ordinary restock** | NMF + Beta Glucan · Glucoside Foaming Cleanser 150 mL (~$20) · Azelaic Acid 10% Suspension (red marks, start ~week 6) | | theordinary.com (AU) |
-| Cleanser alt. | CeraVe Foaming Cleanser (if not buying from TO) | ~$12–18 / 236 mL | [Chemist Warehouse](https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml) |
+| **The Ordinary restock** | NMF + Beta Glucan · Azelaic Acid 10% Suspension (red marks, start ~week 6) | | theordinary.com (AU) |
+| Cleanser (only when the Neutrogena runs out) | TO Glucoside Foaming Cleanser (~$20) or CeraVe Foaming Cleanser | ~$12–18 / 236 mL | [Chemist Warehouse](https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml) |
 | *Only if needed* | Nizoral 2% / Sebizole 2% (ketoconazole) | ~$20–26 | Step up to this if brow, nose or beard flaking persists after 4 weeks on the OC Naturals wash. [Chemist Warehouse](https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml) |
 
 Next additions, one at a time after about 6 weeks: Azelaic Acid 10% (red marks)
