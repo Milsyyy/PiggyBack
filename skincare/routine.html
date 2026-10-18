@@ -1,0 +1,274 @@
+<title>Skin Routine Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a single phone-width column styled like a pharmacy dispensing label; tabs for Today / Schedule / Shop */
+:root{
+  --bg:#eef2f3; --card:#ffffff; --fg:#14262b; --muted:#5b6f74; --line:#d3dde0;
+  --accent:#0f7a6c; --accent-soft:#d9efeb; --warn:#9a5b00; --warn-soft:#fbefd9;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1719; --card:#152326; --fg:#e3eeef; --muted:#93a8ac; --line:#26383c;
+  --accent:#4fc4b1; --accent-soft:#163a35; --warn:#f0b35a; --warn-soft:#3a2c14; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d1719; --card:#152326; --fg:#e3eeef; --muted:#93a8ac; --line:#26383c;
+  --accent:#4fc4b1; --accent-soft:#163a35; --warn:#f0b35a; --warn-soft:#3a2c14; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);padding:20px 16px 48px}
+.wrap{max-width:560px;margin:0 auto;display:grid;gap:18px}
+header{display:grid;gap:4px}
+.eyebrow{font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font:800 30px/1.1 var(--display);margin:0;text-wrap:balance}
+h2{font:600 19px/1.2 var(--display);margin:0}
+.tabs{display:flex;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tabs button{flex:1;border:0;background:none;color:var(--muted);font:600 14px var(--body);padding:9px 6px;border-radius:9px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent-soft);color:var(--accent)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.day{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.chip{font:500 12px var(--mono);padding:4px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.label{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.label-head{display:flex;justify-content:space-between;align-items:baseline;padding:12px 16px;border-bottom:1px dashed var(--line)}
+.label-head span{font:500 12px var(--mono);color:var(--muted)}
+ol.steps{list-style:none;margin:0;padding:0}
+ol.steps li{border-top:1px solid var(--line)}
+ol.steps li:first-child{border-top:0}
+.step{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start;padding:12px 16px;cursor:pointer}
+.step input{width:22px;height:22px;margin:1px 0 0;accent-color:var(--accent);cursor:pointer}
+.step b{font-weight:600}
+.step small{display:block;color:var(--muted);font-size:13px}
+.step.done b{text-decoration:line-through;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin:0}
+.panel{display:grid;gap:14px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-top:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-top:0}
+td.on{color:var(--accent);font-weight:600}
+.scroll{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.week td{text-align:center;font:500 12px var(--mono)}
+.week th{text-align:center}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:6px}
+.prod-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.prod-top b{font-weight:600}
+.price{font:500 13px var(--mono);white-space:nowrap}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font:600 13px var(--body);color:var(--accent);text-decoration:none;border:1px solid var(--accent);border-radius:8px;padding:5px 10px}
+.links a:hover{background:var(--accent-soft)}
+.alt{font-size:13px;color:var(--muted)}
+.start{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.start input{font:500 13px var(--mono);padding:4px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+.rule{background:var(--warn-soft);color:var(--fg);border-radius:12px;padding:12px 14px;font-size:14px}
+.rule b{color:var(--warn)}
+@media (prefers-reduced-motion:no-preference){.step{transition:background .15s}.step:hover{background:var(--accent-soft)}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Daily routine · oily skin</div>
+    <h1>Skin Routine Card</h1>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button role="tab" id="t-today" aria-selected="true" data-tab="today">Today</button>
+    <button role="tab" id="t-sched" aria-selected="false" data-tab="sched">Schedule</button>
+    <button role="tab" id="t-shop" aria-selected="false" data-tab="shop">Shop</button>
+  </div>
+
+  <!-- TODAY -->
+  <section class="panel" id="p-today">
+    <div class="day">
+      <h2 id="dayname">Today</h2>
+      <span class="chip" id="weekchip">Week 1</span>
+    </div>
+    <div class="start"><label for="startdate">Started on</label><input type="date" id="startdate"></div>
+    <div class="start"><input type="checkbox" id="nightonly" style="width:18px;height:18px;accent-color:var(--accent)"><label for="nightonly">Night-only mode: everything happens at night, sunscreen only when you head outside</label></div>
+
+    <div class="label" id="amcard">
+      <div class="label-head"><h2>Morning</h2><span>AM</span></div>
+      <ol class="steps" id="am"></ol>
+    </div>
+    <div class="rule" id="amnote" hidden><b>Mornings:</b> nothing required. If you're heading outside for more than a few minutes, put on sunscreen first: ½ tsp for face and neck. Keep a tube in your bag or car.</div>
+    <div class="label">
+      <div class="label-head"><h2>Night</h2><span>PM</span></div>
+      <ol class="steps" id="pm"></ol>
+    </div>
+    <div class="rule"><b>Hands off.</b> Don't squeeze pores. The salicylic acid clears them without leaving red marks. Keep the glycolic scrub and the body lotions off your face and chest.</div>
+    <p class="note">Ticks save on this device and reset each day.</p>
+  </section>
+
+  <!-- SCHEDULE -->
+  <section class="panel" id="p-sched" hidden>
+    <h2>Ramp-up</h2>
+    <div class="scroll"><table>
+      <tr><th>Weeks</th><th>Salicylic 2% Solution</th><th>Masque (optional)</th><th>Chest body serum</th></tr>
+      <tr><td>1–2</td><td>None</td><td>None</td><td>None. Let the squeeze marks heal</td></tr>
+      <tr><td>3–4</td><td class="on">Mon, Thu</td><td>None</td><td class="on">Mon, Wed, Fri</td></tr>
+      <tr><td>5+</td><td class="on">Mon, Wed, Fri</td><td class="on">Sun</td><td class="on">Nightly</td></tr>
+    </table></div>
+
+    <h2>Your week at a glance (week 5+)</h2>
+    <div class="scroll"><table class="week">
+      <tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr>
+      <tr><th>Salicylic</th><td class="on">●</td><td></td><td class="on">●</td><td></td><td class="on">●</td><td></td><td></td></tr>
+      <tr><th>Masque</th><td></td><td></td><td></td><td></td><td></td><td></td><td class="on">○</td></tr>
+      <tr><th>OC wash</th><td></td><td class="on">●</td><td></td><td class="on">●</td><td></td><td class="on">●</td><td></td></tr>
+      <tr><th>Acid wash</th><td class="on">●</td><td></td><td class="on">●</td><td></td><td class="on">●</td><td></td><td class="on">●</td></tr>
+      <tr><th>Body serum</th><td class="on">●</td><td class="on">●</td><td class="on">●</td><td class="on">●</td><td class="on">●</td><td class="on">●</td><td class="on">●</td></tr>
+    </table></div>
+
+    <h2>Your products</h2>
+    <div class="scroll"><table>
+      <tr><th>Product</th><th>Where and how</th></tr>
+      <tr><td>Neutrogena Deep Clean cleanser</td><td>Face, morning and night until the new cleanser arrives. Water only on salicylic nights</td></tr>
+      <tr><td>OC Naturals Anti-Dandruff 2-in-1</td><td>Zinc pyrithione, which targets the same yeast. Tue, Thu, Sat in the shower: scalp, brows, sides of nose, beard, chest. Leave 3–5 minutes</td></tr>
+      <tr><td>TO Salicylic 2% Anhydrous Solution</td><td>A few drops on nose, chin, forehead on salicylic nights, leave on</td></tr>
+      <tr><td>TO Niacinamide 10% + Zinc</td><td>2–3 drops, whole face, every morning</td></tr>
+      <tr><td>TO NMF + Beta Glucan</td><td>Face every night. In the morning only if your skin feels tight</td></tr>
+      <tr><td>TO Salicylic 2% Masque</td><td>Optional, Sundays from week 5. Nose, chin, forehead, 10 minutes max, then rinse</td></tr>
+      <tr><td>TO Salicylic 0.5% Body Serum</td><td>Chest and back at night, leave on</td></tr>
+      <tr><td>frank Triple Acid Body Wash</td><td>Chest, back and body on days without the keto wash. Not the face</td></tr>
+      <tr><td>DermaVeen lotion</td><td>Chest and body if dry</td></tr>
+      <tr><td>frank Glycolic Body Scrub</td><td>Arms and legs only, once a week at most. Not the face or chest</td></tr>
+      <tr><td>Palmer's / Vaseline body lotion</td><td>Body only. They're fragranced, so keep them off the face and chest spots</td></tr>
+      <tr><td>Sunscreen <i>(to buy)</i></td><td>½ tsp for face and neck. Reapply outdoors every 2 h</td></tr>
+      <tr><td>Ketoconazole shampoo <i>(only if needed)</i></td><td>Step up to this if flaking persists after 4 weeks on OC Naturals</td></tr>
+    </table></div>
+
+    <h2>Coming later</h2>
+    <p class="note">Your The Ordinary orders are about a year old. Bin anything that smells off, has changed colour or has separated. Around week 6, if your skin is calm: add The Ordinary Azelaic Acid 10% on nights without salicylic. Later still, add a retinoid. Add one new product at a time. If something burns or peels, go back to cleanser and moisturiser for a few days.</p>
+  </section>
+
+  <!-- SHOP -->
+  <section class="panel" id="p-shop" hidden>
+    <h2>Already have</h2>
+    <p class="note">OC Naturals Anti-Dandruff 2-in-1 · TO Salicylic 2% Anhydrous Solution · Neutrogena Deep Clean cleanser · TO Niacinamide 10% + Zinc · TO NMF + Beta Glucan · TO Salicylic 2% Masque · TO Salicylic 0.5% Body Serum · frank body Triple Acid Wash and Glycolic Scrub · DermaVeen, Palmer's and Vaseline body lotions</p>
+    <h2>To buy · Australia</h2>
+
+    <div class="prod">
+      <div class="prod-top"><b>Sunscreen · Cancer Council Day Wear Face Matte Invisible SPF50+ 75 mL</b><span class="price">~$9–18</span></div>
+      <div class="links"><a href="https://www.chemistwarehouse.com.au/buy/89014/cancer-council-spf-50-day-wear-face-matte-invisible-75ml-tube" target="_blank" rel="noopener">Chemist Warehouse</a></div>
+      <div class="alt">Upgrade: La Roche-Posay Anthelios UVMune 400 Oil Control Fluid (~$29–48) · <a href="https://www.skinlovers.com/en-au/products/la-roche-posay-anthelos-uvmune-400-oil-control-fluid-spf50-50ml" target="_blank" rel="noopener">Skinlovers</a></div>
+    </div>
+
+    <div class="prod">
+      <div class="prod-top"><b>Cleanser · CeraVe Foaming Cleanser 236 mL</b><span class="price">~$12–18</span></div>
+      <div class="links">
+        <a href="https://www4.chemistwarehouse.com.au/buy/91321/cerave-foaming-cleanser-236ml" target="_blank" rel="noopener">Chemist Warehouse</a>
+        <a href="https://www.priceline.com.au/product/188700/cerave-foaming-cleanser-236-ml" target="_blank" rel="noopener">Priceline</a>
+      </div>
+      <div class="alt">Or re-buy The Ordinary Glucoside Foaming Cleanser (~$20) from theordinary.com.</div>
+    </div>
+
+    <div class="prod">
+      <div class="prod-top"><b>Only if needed · Nizoral 2% Shampoo 100 mL</b><span class="price">~$26</span></div>
+      <div class="links"><a href="https://www.chemistwarehouse.com.au/buy/41888/nizoral-anti-dandruff-shampoo-2-100ml" target="_blank" rel="noopener">Chemist Warehouse</a></div>
+      <div class="alt">Only if flaking on your brows, nose or beard persists after 4 weeks on OC Naturals. Pharmacist Only. Sebizole 2% is cheaper.</div>
+    </div>
+
+    <p class="note">Prices are approximate, from recent online listings. Check the site before buying.</p>
+  </section>
+</div>
+
+<script>
+(function(){
+  const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+  const DAYS=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+  const today=new Date(); const todayKey=iso(today); const dow=today.getDay();
+  const startInput=document.getElementById("startdate");
+  startInput.value=store.get("startDate")||todayKey;
+  startInput.addEventListener("change",()=>{store.set("startDate",startInput.value);render()});
+
+  function week(){
+    const s=new Date(startInput.value+"T00:00:00");
+    if(isNaN(s)) return 1;
+    const days=Math.floor((new Date(todayKey+"T00:00:00")-s)/864e5);
+    return Math.max(1,Math.floor(days/7)+1);
+  }
+  function salicylicTonight(w){
+    if(w<=2) return false;
+    if(w<=4) return dow===1||dow===4;
+    return dow===1||dow===3||dow===5;
+  }
+  function masqueTonight(w){ return w>=5 && dow===0; }
+  function bodySerumTonight(w){
+    if(w<=2) return false;
+    if(w<=4) return dow===1||dow===3||dow===5;
+    return true;
+  }
+  const ketoToday=[2,4,6].includes(dow);
+
+  const nightBox=document.getElementById("nightonly");
+  nightBox.checked=store.get("nightOnly")==="1";
+  nightBox.addEventListener("change",()=>{store.set("nightOnly",nightBox.checked?"1":"0");render()});
+
+  function nightOnlySteps(w){
+    const sal=salicylicTonight(w);
+    const pm=[];
+    if(ketoToday) pm.push(["OC Naturals anti-dandruff wash","Evening shower: scalp, brows, sides of nose, beard, chest. Leave 3–5 minutes"]);
+    else pm.push(["frank Triple Acid Body Wash","Chest and back in the shower. Not the face"]);
+    pm.push(["Cleanse face",sal?"Lukewarm water only tonight, because the salicylic follows":"Neutrogena cleanser, lukewarm water, no scrubbing"]);
+    if(sal) pm.push(["Salicylic 2% Solution","A few drops on nose, chin, forehead. Let it dry for 1 minute"]);
+    if(masqueTonight(w)) pm.push(["Salicylic 2% Masque (optional)","Thin layer on nose, chin, forehead. 10 minutes max, then rinse"]);
+    pm.push(["Niacinamide","2–3 drops, whole face"]);
+    pm.push(["NMF + Beta Glucan","Whole face"]);
+    if(bodySerumTonight(w)) pm.push(["Salicylic 0.5% Body Serum","Chest and back. DermaVeen on top if dry"]);
+    pm.push(["Paw paw or Vaseline on lips","Thin layer before bed"]);
+    return {am:[],pm};
+  }
+
+  function stepsFor(w){
+    if(nightBox.checked) return nightOnlySteps(w);
+    const am=[];
+    if(ketoToday) am.push(["OC Naturals anti-dandruff wash","Shower: scalp, brows, sides of nose, beard, chest. Leave 3–5 minutes"]);
+    else am.push(["frank Triple Acid Body Wash","Chest and back in the shower. Not the face"]);
+    am.push(["Cleanse face","Neutrogena cleanser, or just rinse with water"]);
+    am.push(["Niacinamide","2–3 drops, whole face"]);
+    am.push(["Sunscreen SPF 50+","½ tsp for face and neck"]);
+    const pm=[["Cleanse face",salicylicTonight(w)?"Lukewarm water only tonight, because the salicylic follows":"Neutrogena cleanser, lukewarm water, no scrubbing"]];
+    if(salicylicTonight(w)) pm.push(["Salicylic 2% Solution","A few drops on nose, chin, forehead. Let it dry for 1 minute"]);
+    if(masqueTonight(w)) pm.push(["Salicylic 2% Masque (optional)","Thin layer on nose, chin, forehead. 10 minutes max, then rinse"]);
+    pm.push(["NMF + Beta Glucan","Whole face"]);
+    if(bodySerumTonight(w)) pm.push(["Salicylic 0.5% Body Serum","Chest and back. DermaVeen on top if dry"]);
+    pm.push(["Paw paw or Vaseline on lips","Thin layer before bed"]);
+    return {am,pm};
+  }
+
+  function list(el,items,prefix){
+    el.innerHTML="";
+    items.forEach(([t,s],i)=>{
+      const id=prefix+i, key="tick:"+todayKey+":"+prefix+":"+t;
+      const li=document.createElement("li");
+      const lab=document.createElement("label"); lab.className="step"; lab.htmlFor=id;
+      const cb=document.createElement("input"); cb.type="checkbox"; cb.id=id; cb.checked=store.get(key)==="1";
+      const txt=document.createElement("div"); txt.innerHTML="<b></b><small></small>";
+      txt.querySelector("b").textContent=t; txt.querySelector("small").textContent=s;
+      lab.append(cb,txt); if(cb.checked) lab.classList.add("done");
+      cb.addEventListener("change",()=>{store.set(key,cb.checked?"1":"0");lab.classList.toggle("done",cb.checked)});
+      li.append(lab); el.append(li);
+    });
+  }
+
+  function render(){
+    const w=week(); const {am,pm}=stepsFor(w);
+    document.getElementById("dayname").textContent=DAYS[dow];
+    const chip=document.getElementById("weekchip");
+    const sal=salicylicTonight(w);
+    chip.textContent="Week "+w+(sal?" · salicylic night":masqueTonight(w)?" · masque night":w<=2?" · healing weeks":" · rest night");
+    chip.classList.toggle("warn",w<=2);
+    document.getElementById("amcard").hidden=nightBox.checked;
+    document.getElementById("amnote").hidden=!nightBox.checked;
+    list(document.getElementById("am"),am,"am");
+    list(document.getElementById("pm"),pm,"pm");
+  }
+
+  document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{
+    document.querySelectorAll(".tabs button").forEach(x=>x.setAttribute("aria-selected",x===b?"true":"false"));
+    ["today","sched","shop"].forEach(t=>document.getElementById("p-"+t).hidden=t!==b.dataset.tab);
+  }));
+  render();
+})();
+</script>
